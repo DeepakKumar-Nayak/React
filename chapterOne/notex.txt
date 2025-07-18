@@ -1,0 +1,12 @@
+React is used to create single page application for example react website and if you look at NASA Website thats not a single page application. wahan ek page se dusre page jane ke liye apka page dubara reload hota hai so singe page application mein nahi hota hai. Single page application mein page dubara realod nahi hota hai sirf content dynamically update hota hai using Javascript and Virtual Dom. 
+
+Why React.? 
+----------
+.fast because of virtual Dom
+.easy to learn hai
+.large community
+
+.React jo hai internally virtual dom use karta hao thats why yeah bahut hi fast hai. React bas ek library hai language nahi ya for framewwork nahi. 
+. Angular ek framework hai but React nahi hai. 
+. React is developed by facebook
+. current version as of now is 19 (18-07-25)
