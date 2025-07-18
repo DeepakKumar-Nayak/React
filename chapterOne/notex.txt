@@ -10,3 +10,8 @@ Why React.?
 . Angular ek framework hai but React nahi hai. 
 . React is developed by facebook
 . current version as of now is 19 (18-07-25)
+
+// Vite:
+. so we will be using Vite because its a fast development tool
+. configuration bhi thoda simple as compared to other (parcel)
+. 
