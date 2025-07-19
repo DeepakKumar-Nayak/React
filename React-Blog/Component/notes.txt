@@ -1,0 +1,30 @@
+dekh aggar mujhe direct export karna hai without writting export default function name for example: 
+
+export function UserLogin(){
+    return(
+        <div>
+            <h1>This is Login Page</h1>
+        </div>
+    )
+}
+
+
+
+// then during import i had to do like: 
+. import {UserLogin} from "../Component/UserComponent";  || this is the newer version if we are using export beore function defining
+. import UserLogin from "../Component/UserComponent"; || this is the previous one this will noy work we have to use inside the curly braces 
+
+// Agar mujhe multiple function kp aise import karna hai like let me create another function
+
+export function UserProfile(){
+    return(
+        <div>
+            <p>This is Profile Page<p>
+        </div>
+    )
+}
+
+// How to import of we have multiple function 
+import {UserLogin, UserProfile} from "../Component/UserComponent"; || i can write like this inside the curly braces followed by a comman i can 
+
+
