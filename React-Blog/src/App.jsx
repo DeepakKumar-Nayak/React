@@ -6,6 +6,7 @@ import TodoJsx from "../Jsx Folder/JsxComponent";
 import { VariableWithJSX } from "../Jsx_Variables/variable";
 import { Object } from "../Object_JSX/Object";
 import { StateApp } from "../State Topic/StateApp";
+import { HideShow } from "../Toggle_Hide/HideShow";
 import ComponentData from "./component";
 import Header from "./Header";
 
@@ -16,8 +17,8 @@ import Header from "./Header";
 
 function Hello(){
   return(
-    <div className ="styling">
-      <Counter/>
+    <div>
+      <HideShow/>
     </div>
   )
 }
