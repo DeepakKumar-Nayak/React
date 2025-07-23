@@ -26,3 +26,19 @@ ul>li{
     list-style-type: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.Counter {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    max-width: max-content;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
