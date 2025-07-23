@@ -11,6 +11,7 @@ import { StateApp } from "../State Topic/StateApp";
 import { HideShow } from "../Toggle_Hide/HideShow";
 import ComponentData from "./component";
 import Header from "./Header";
+import { PropsArray } from "../Props_Array/PropsArray";
 
 
 
@@ -24,9 +25,18 @@ function Hello(){
     gmail : "deepak@gmail.com",
     location: "India"
   }
+  let objectData2 = {
+    username : 'rahul',
+    gmail : "rahul@gmail.com",
+    location: "India"
+  }
+
+  let playersName = ['KlRahul',"Jaiswal","Sudarshan","Gill","Pant" ]
   return(
     <div>
-      <Object userData = {objectData}/>
+      <PropsArray name = {playersName}/>
+     {/* <Object userData = {objectData}/> */}
+     {/* <Object userData = {objectData2}/> */}
     </div>
   )
 }
