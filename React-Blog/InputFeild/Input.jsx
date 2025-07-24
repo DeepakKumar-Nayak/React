@@ -7,10 +7,9 @@ export function Input(){
     return(
         <div className="styling">
             <h1>Input Field</h1>
-            <input type="text" placeholder = "Enter Your Data Here" onChange = {(event)=>(setValue(event.target.value))}/>
-            <br/>
-            {value}<br/>
-            <button>Clear</button>
+            <input type="text" value = {value} placeholder = "Enter Your Data Here" onChange = {(event)=>(setValue(event.target.value))}/>
+            <p>{value}</p>
+            <button onClick={()=>(setValue(""))}>Clear</button>
         </div>
     )
 }
