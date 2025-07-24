@@ -10,3 +10,7 @@
     max-width: max-content;
     margin: 1rem 1rem;
 }
+
+.form-styling input{
+    margin-bottom : 5px;
+}

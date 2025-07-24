@@ -13,6 +13,7 @@ import ComponentData from "./component";
 import Header from "./Header";
 import { PropsArray } from "../Props_Array/PropsArray";
 import { Input } from "../InputFeild/Input";
+import { ControlledComponent } from "../ControlledComponent/ControlledComponent";
 
 
 
@@ -39,7 +40,7 @@ function Hello(){
       {/* <PropsArray name = {playersName}/> */}
      {/* <Object userData = {objectData}/> */}
      {/* <Object userData = {objectData2}/> */}
-     <Input/>
+    <ControlledComponent/>
     </div>
   )
 }
