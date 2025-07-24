@@ -12,6 +12,8 @@ import { HideShow } from "../Toggle_Hide/HideShow";
 import ComponentData from "./component";
 import Header from "./Header";
 import { PropsArray } from "../Props_Array/PropsArray";
+import { Input } from "../InputFeild/Input";
+
 
 
 
@@ -20,23 +22,24 @@ import { PropsArray } from "../Props_Array/PropsArray";
 
 
 function Hello(){
-  let objectData = {
-    username : 'deepak',
-    gmail : "deepak@gmail.com",
-    location: "India"
-  }
-  let objectData2 = {
-    username : 'rahul',
-    gmail : "rahul@gmail.com",
-    location: "India"
-  }
+  // let objectData = {
+  //   username : 'deepak',
+  //   gmail : "deepak@gmail.com",
+  //   location: "India"
+  // }
+  // let objectData2 = {
+  //   username : 'rahul',
+  //   gmail : "rahul@gmail.com",
+  //   location: "India"
+  // }
 
-  let playersName = ['KlRahul',"Jaiswal","Sudarshan","Gill","Pant" ]
+  // let playersName = ['KlRahul',"Jaiswal","Sudarshan","Gill","Pant" ]
   return(
     <div>
-      <PropsArray name = {playersName}/>
+      {/* <PropsArray name = {playersName}/> */}
      {/* <Object userData = {objectData}/> */}
      {/* <Object userData = {objectData2}/> */}
+     <Input/>
     </div>
   )
 }
