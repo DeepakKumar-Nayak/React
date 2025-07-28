@@ -14,6 +14,8 @@ import Header from "./Header";
 import { PropsArray } from "../Props_Array/PropsArray";
 import { Input } from "../InputFeild/Input";
 import { ControlledComponent } from "../ControlledComponent/ControlledComponent";
+import { CheckBoxes } from "../checkBox/CheckBoxes";
+import { RadioButton } from "../RadioButtons/RadioButton";
 
 
 
@@ -40,7 +42,9 @@ function Hello(){
       {/* <PropsArray name = {playersName}/> */}
      {/* <Object userData = {objectData}/> */}
      {/* <Object userData = {objectData2}/> */}
-    <ControlledComponent/>
+    {/* <ControlledComponent/> */}
+    {/* <CheckBoxes/> */}
+    <RadioButton/>
     </div>
   )
 }
