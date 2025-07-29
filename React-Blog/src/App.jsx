@@ -21,6 +21,7 @@ import { Example } from "../MapWithComponent/Example";
 import { UserData } from "../MapWithComponent/userData";
 import { Clock } from "../Clock/Clock";
 import { ClockStyle } from "../Clock/ClockStyle";
+import { Student } from "../NestedReactExample/Student";
 
 
 
@@ -52,7 +53,8 @@ function Hello(){
     {/* <RadioButton/> */}
     {/* <ExampleUinsgMap/> */}
     {/* <UserData/> */}
-    <ClockStyle/>
+    {/* <ClockStyle/> */}
+    <Student/>
     </div>
   )
 }
