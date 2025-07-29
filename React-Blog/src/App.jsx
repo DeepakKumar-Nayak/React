@@ -20,6 +20,7 @@ import { ExampleUinsgMap } from "../Map_in_React/UsingMap";
 import { Example } from "../MapWithComponent/Example";
 import { UserData } from "../MapWithComponent/userData";
 import { Clock } from "../Clock/Clock";
+import { ClockStyle } from "../Clock/ClockStyle";
 
 
 
@@ -51,7 +52,7 @@ function Hello(){
     {/* <RadioButton/> */}
     {/* <ExampleUinsgMap/> */}
     {/* <UserData/> */}
-    <Clock/>
+    <ClockStyle/>
     </div>
   )
 }
