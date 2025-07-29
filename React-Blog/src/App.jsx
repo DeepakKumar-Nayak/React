@@ -16,6 +16,10 @@ import { Input } from "../InputFeild/Input";
 import { ControlledComponent } from "../ControlledComponent/ControlledComponent";
 import { CheckBoxes } from "../checkBox/CheckBoxes";
 import { RadioButton } from "../RadioButtons/RadioButton";
+import { ExampleUinsgMap } from "../Map_in_React/UsingMap";
+import { Example } from "../MapWithComponent/Example";
+import { UserData } from "../MapWithComponent/userData";
+import { Clock } from "../Clock/Clock";
 
 
 
@@ -44,7 +48,10 @@ function Hello(){
      {/* <Object userData = {objectData2}/> */}
     {/* <ControlledComponent/> */}
     {/* <CheckBoxes/> */}
-    <RadioButton/>
+    {/* <RadioButton/> */}
+    {/* <ExampleUinsgMap/> */}
+    {/* <UserData/> */}
+    <Clock/>
     </div>
   )
 }
