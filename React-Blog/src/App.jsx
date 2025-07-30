@@ -22,6 +22,7 @@ import { UserData } from "../MapWithComponent/userData";
 import { Clock } from "../Clock/Clock";
 import { ClockStyle } from "../Clock/ClockStyle";
 import { Student } from "../NestedReactExample/Student";
+import { CounterFunction } from "../Hooks/Counter";
 
 
 
@@ -54,7 +55,8 @@ function Hello(){
     {/* <ExampleUinsgMap/> */}
     {/* <UserData/> */}
     {/* <ClockStyle/> */}
-    <Student/>
+    {/* <Student/> */}
+    <CounterFunction/>
     </div>
   )
 }

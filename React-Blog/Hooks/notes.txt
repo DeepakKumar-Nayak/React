@@ -1,0 +1,34 @@
+Older version 16.8 se pehle wahan class baesd component bahut jyada use hote they
+aur class based components mein ham hooks used nahi kar pate they 
+
+and aaj ke time pe class based component used nahi hota hai ham functional based 
+component used karte hai and wahan yeah hame allow karte hai state, dom manipulation yeah sab karne ke liye.
+
+and yeah sab ham hooks ke help se karte hein.
+Popular React Hooks:
+--------------------
+. useState
+. useEffect
+. useRef
+. useContext
+. useReducer
+
+useEffect(()=>(
+    // call every time
+))
+
+useEffect(()=>(
+    // call only one time
+),[])
+
+useEffect(()=>(
+    // call on changing the respective state
+),[state])
+
+useEffect(()=>(
+    // call on changing both the state
+),[state1] [state2])
+
+useEffect(()=>(
+    // call on changing the props
+),[prop1, prop2])
