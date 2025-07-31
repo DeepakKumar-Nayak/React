@@ -23,6 +23,7 @@ import { Clock } from "../Clock/Clock";
 import { ClockStyle } from "../Clock/ClockStyle";
 import { Student } from "../NestedReactExample/Student";
 import { CounterFunction } from "../Hooks/Counter";
+import { UisngStyleInReact } from "../StyleInReact/UsingStyleInReact";
 
 
 
@@ -56,7 +57,8 @@ function Hello(){
     {/* <UserData/> */}
     {/* <ClockStyle/> */}
     {/* <Student/> */}
-    <CounterFunction/>
+    {/* <CounterFunction/> */}
+    <UisngStyleInReact/>
     </div>
   )
 }
