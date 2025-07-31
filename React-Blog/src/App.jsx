@@ -24,6 +24,7 @@ import { ClockStyle } from "../Clock/ClockStyle";
 import { Student } from "../NestedReactExample/Student";
 import { CounterFunction } from "../Hooks/Counter";
 import { UisngStyleInReact } from "../StyleInReact/UsingStyleInReact";
+import { Card } from "../StyleInReact/Card";
 
 
 
@@ -58,7 +59,8 @@ function Hello(){
     {/* <ClockStyle/> */}
     {/* <Student/> */}
     {/* <CounterFunction/> */}
-    <UisngStyleInReact/>
+    {/* <UisngStyleInReact/> */}
+    <Card/>
     </div>
   )
 }

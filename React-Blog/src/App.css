@@ -17,11 +17,12 @@
 }
 
 button{
-    background-color: rgb(113, 113, 188);
-    padding: 15px 30px;
-    color: white;
-    border: none;
+    background-color: rgb(12, 12, 12);
+    padding: 10px 10px;
+    color: rgb(238, 232, 232);
+    border: 2px solid black;
     margin-top: 10px;
+    font-size: 15px;
 }
 
 ul>li{

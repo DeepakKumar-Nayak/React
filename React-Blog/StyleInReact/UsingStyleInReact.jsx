@@ -28,6 +28,7 @@ export function UisngStyleInReact(){
 
     return(
         <div style= {cardStyle}>
+            
             <img  style= {{width:"280px"}}src="https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-male-user-profile-vector-illustration-isolated-background-man-profile-sign-business-concept_157943-38764.jpg" alt="profile-image" />
             <h3 style= {{color:textColor}}>Deepak</h3>
             <p style= {{color:profession}}>Software Developer</p>
