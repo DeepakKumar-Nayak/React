@@ -1,0 +1,24 @@
+.useRef ham input fields ke saath use kar sakhte hein
+
+.useRef kisi bhi HTML Element ko manipulate ya phir uska dom ko control karne ke liye use kiya jata hai
+
+.useState mein value change hone se componenet re-render hota hai but aisa 
+useRef ke case mein nahi hota hein for example jab aab counter app banate ho tab apka value jab change hota hai tab re-render hota hai but agar yai kam aap useRef se karoge toh wh nahi hota hai re-render. 
+
+React mein 2-type ke componen t hote hein 
+1. controlled component
+2. uncontrolled component
+
+Jab bhi aap controlled and uncontrolled ke bare mein suno toh aap samajh lena ki
+apke pass jo component hai uske andar input feilds hai ya phir ek form bana hai
+
+controlled component ke andar kya hota hai en input feilds ki value state ke andar 
+control kiya jata hai 
+
+but uncontrolled component mein state ka use nahi kiya jata hai yahan koi state ka 
+role nahi hota hai aapko directly dom ki help se dom object ki help se input value
+ko get kiya jaega 
+
+jab bhi ek input feild ko useRef se get karte ho usko kaha jata hai uncontrolled component par aisa nahi hai jab bhi kisi bhi input feild ki value get kar rahe ho 
+aur wahan state ka use nahi hota hai and directly dom ka object use hota hai 
+usko ham uncontrolled component kaha jaega. 
