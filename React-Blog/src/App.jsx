@@ -1,4 +1,4 @@
-import {UserLogin, UserProfile} from "../Component/UserComponent";
+import { UserLogin, UserProfile } from "../Component/UserComponent";
 import { Condition } from "../Condition_JSX/Condition";
 import { Counter } from "../Counter_useState/Counter";
 import { UsingEvents } from "../Events_JSX/UsingEvents";
@@ -27,6 +27,7 @@ import { UisngStyleInReact } from "../StyleInReact/UsingStyleInReact";
 import { Card } from "../StyleInReact/Card";
 import { LearnuseRef } from "../UseRefHooks/LearnuseRef";
 import { Form } from "../UseRefHooks/Form";
+import { User } from "../PassingFunctionInProps/User";
 
 
 
@@ -35,7 +36,7 @@ import { Form } from "../UseRefHooks/Form";
 
 
 
-function Hello(){
+function Hello() {
   // let objectData = {
   //   username : 'deepak',
   //   gmail : "deepak@gmail.com",
@@ -46,25 +47,29 @@ function Hello(){
   //   gmail : "rahul@gmail.com",
   //   location: "India"
   // }
-
   // let playersName = ['KlRahul',"Jaiswal","Sudarshan","Gill","Pant" ]
-  return(
+
+  function displayName(name){
+    console.log(name)
+  }
+  return (
     <div>
       {/* <PropsArray name = {playersName}/> */}
-     {/* <Object userData = {objectData}/> */}
-     {/* <Object userData = {objectData2}/> */}
-    {/* <ControlledComponent/> */}
-    {/* <CheckBoxes/> */}
-    {/* <RadioButton/> */}
-    {/* <ExampleUinsgMap/> */}
-    {/* <UserData/> */}
-    {/* <ClockStyle/> */}
-    {/* <Student/> */}
-    {/* <CounterFunction/> */}
-    {/* <UisngStyleInReact/> */}
-    {/* <Card/> */}
-    {/* <LearnuseRef/> */}
-    <Form/>
+      {/* <Object userData = {objectData}/> */}
+      {/* <Object userData = {objectData2}/> */}
+      {/* <ControlledComponent/> */}
+      {/* <CheckBoxes/> */}
+      {/* <RadioButton/> */}
+      {/* <ExampleUinsgMap/> */}
+      {/* <UserData/> */}
+      {/* <ClockStyle/> */}
+      {/* <Student/> */}
+      {/* <CounterFunction/> */}
+      {/* <UisngStyleInReact/> */}
+      {/* <Card/> */}
+      {/* <LearnuseRef/> */}
+      {/* <Form/> */}
+      <User displayName = {displayName} name="deepak"/>
     </div>
   )
 }
