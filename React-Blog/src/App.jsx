@@ -29,6 +29,7 @@ import { LearnuseRef } from "../UseRefHooks/LearnuseRef";
 import { Form } from "../UseRefHooks/Form";
 import { User } from "../PassingFunctionInProps/User";
 import { ForwardRef } from "../ForwardRef/ForwardRef";
+import { DerivedState } from "../DerivedState/DerivedState";
 
 
 
@@ -71,7 +72,8 @@ function Hello() {
       {/* <LearnuseRef/> */}
       {/* <Form/> */}
       {/* <User displayName = {displayName} name="deepak"/> */}
-      <ForwardRef/>
+      {/* <ForwardRef/> */}
+      <DerivedState/>
     </div>
   )
 }
