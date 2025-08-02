@@ -30,6 +30,8 @@ import { Form } from "../UseRefHooks/Form";
 import { User } from "../PassingFunctionInProps/User";
 import { ForwardRef } from "../ForwardRef/ForwardRef";
 import { DerivedState } from "../DerivedState/DerivedState";
+import { LiftingState } from "../LiftingStateInReact/LiftingState";
+import { DisplayUser } from "../LiftingStateInReact/DisplayUser";
 
 
 
@@ -73,7 +75,9 @@ function Hello() {
       {/* <Form/> */}
       {/* <User displayName = {displayName} name="deepak"/> */}
       {/* <ForwardRef/> */}
-      <DerivedState/>
+      {/* <DerivedState/> */}
+      <LiftingState/>
+    
     </div>
   )
 }
