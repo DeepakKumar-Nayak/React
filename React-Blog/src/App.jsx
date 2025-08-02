@@ -32,6 +32,8 @@ import { ForwardRef } from "../ForwardRef/ForwardRef";
 import { DerivedState } from "../DerivedState/DerivedState";
 import { LiftingState } from "../LiftingStateInReact/LiftingState";
 import { DisplayUser } from "../LiftingStateInReact/DisplayUser";
+import { UpdateName } from "../ObjectsInReact/Objects";
+import { ObjectsUpdate } from "../ObjectsInReact/ObjectsData";
 
 
 
@@ -76,7 +78,9 @@ function Hello() {
       {/* <User displayName = {displayName} name="deepak"/> */}
       {/* <ForwardRef/> */}
       {/* <DerivedState/> */}
-      <LiftingState/>
+      {/* <LiftingState/> */}
+      {/* <UpdateName/> */}
+      <ObjectsUpdate/>
     
     </div>
   )
