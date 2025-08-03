@@ -34,6 +34,7 @@ import { LiftingState } from "../LiftingStateInReact/LiftingState";
 import { DisplayUser } from "../LiftingStateInReact/DisplayUser";
 import { UpdateName } from "../ObjectsInReact/Objects";
 import { ObjectsUpdate } from "../ObjectsInReact/ObjectsData";
+import { UpdateArray } from "../UpdateArray/UpdateArray";
 
 
 
@@ -80,7 +81,8 @@ function Hello() {
       {/* <DerivedState/> */}
       {/* <LiftingState/> */}
       {/* <UpdateName/> */}
-      <ObjectsUpdate/>
+      {/* <ObjectsUpdate/> */}
+      <UpdateArray/>
     
     </div>
   )
